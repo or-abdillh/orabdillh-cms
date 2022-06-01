@@ -40,11 +40,16 @@
             </form>
          </template>
       </page-section>
+      <!-- Process state -->
+      <process-state v-on:retry="retry"></process-state>
    </main>
 </template>
 
 <script setup>
 
 import PageSection from '@component/PageSection.vue'
+import ProcessState from '@component/ProcessState.vue'
+
+const retry = () => console.log('retry')
 
 </script>
