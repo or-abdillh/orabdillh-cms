@@ -6,7 +6,7 @@
         <h1 class="font-semibold text-indigo-600">OR ABDILLH</h1>
       </section> 
       <section>
-        <i class="fa fa-solid fa-bell text-indigo-600 text-2xl relative">
+        <i class="fa fa-solid fa-envelope-open text-indigo-600 text-2xl relative">
           <span class="text-indigo-600 bg-gray-100 px-1 rounded-full font-semibold text-sm absolute -top-1 -right-1">2</span>
         </i>
       </section>
