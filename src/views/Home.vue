@@ -1,12 +1,11 @@
 <template>
-   <main class="mt-12">
-     <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + Vite + Tailwind + Vue Router" />
+   <main>
+     <home-title-bar />
   </main>
 </template>
 
 <script setup>
 
-import HelloWorld from '@/components/HelloWorld.vue'
+import HomeTitleBar from '@component/HomeTitleBar.vue'
 
 </script>
