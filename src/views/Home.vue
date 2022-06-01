@@ -3,7 +3,8 @@
      <home-title-bar></home-title-bar>
      <!-- Dashboard -->
      <home-dashboard></home-dashboard>
-     <!-- End -->
+     <!-- Manage Content -->
+     <home-manage-content></home-manage-content>
   </main>
 </template>
 
@@ -11,5 +12,6 @@
 
 import HomeTitleBar from '@component/HomeTitleBar.vue'
 import HomeDashboard from '@component/HomeDashboard.vue'
+import HomeManageContent from '@component/HomeManageContent.vue'
 
 </script>
