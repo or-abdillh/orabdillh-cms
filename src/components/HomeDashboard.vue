@@ -1,6 +1,6 @@
 <template>
   <main>
-    <home-section-page title="Dashboard">
+    <page-section title="Dashboard">
       <template v-slot:body >
         <!-- Range by Date -->
         <section class="mb-8">
@@ -26,7 +26,7 @@
           dataset-id-key="label"
         />
       </template>
-    </home-section-page>
+    </page-section>
   </main>
 </template>
 
@@ -35,7 +35,7 @@
 import { ref } from 'vue'
 import { Bar } from 'vue-chartjs'
 import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
-import HomeSectionPage from '@component/HomeSectionPage.vue'
+import PageSection from '@component/PageSection.vue'
 
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
 

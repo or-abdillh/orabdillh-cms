@@ -1,6 +1,6 @@
 <template>
   <main class="mt-12">
-    <home-section-page title="Manage Content">
+    <page-section title="Manage Content">
       <template v-slot:body >
         <!-- Manage Contents -->
         <template v-for="item in manageContents" :key="item.id">
@@ -14,14 +14,14 @@
         </template>
         <!-- End -->
       </template>
-    </home-section-page>
+    </page-section>
   </main>
 </template>
 
 <script setup>
 
 import { useRouter } from 'vue-router'
-import HomeSectionPage from '@component/HomeSectionPage.vue'
+import PageSection from '@component/PageSection.vue'
 import ListItem from '@component/ListItem.vue'
 
 const router = useRouter()

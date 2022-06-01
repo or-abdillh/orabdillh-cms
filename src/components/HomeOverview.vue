@@ -1,6 +1,6 @@
 <template>
   <main class="mt-12">
-    <home-section-page title="Overview">
+    <page-section title="Overview">
       <template v-slot:body>
         <section class="">
           <!-- List of overview -->
@@ -22,13 +22,13 @@
           <button class="bg-gray-300 px-3 py-2 rounded-lg">View Code</button>
         </section>
       </template>
-    </home-section-page>
+    </page-section>
   </main>
 </template>
 
 <script setup>
 
-import HomeSectionPage from '@component/HomeSectionPage.vue'
+import  PageSection from '@component/PageSection.vue'
 import ListItem from '@component/ListItem.vue'
 
 const overviews = [

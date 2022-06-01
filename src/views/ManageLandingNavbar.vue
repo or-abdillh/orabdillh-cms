@@ -3,3 +3,9 @@
       Hello
    </main>
 </template>
+
+<script setup>
+
+
+
+</script>>
