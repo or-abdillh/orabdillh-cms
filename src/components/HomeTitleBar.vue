@@ -1,5 +1,5 @@
 <template>
-  <main class="fixed top-0 right-0 left-0">
+  <main class="bg-gray-100 fixed top-0 right-0 left-0">
     <section class="container px-6 py-3 flex justify-between items-center text-lg">
       <section class="flex items-center gap-4">
         <img src="/icons/icon-152x152.png" class="w-2/12" alt="logo">

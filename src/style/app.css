@@ -15,3 +15,11 @@ body {
 .container {
   @apply w-full md:w-10/12 lg:w-8/12 xl:w-6/12 md:mx-auto
 }
+
+.input-wrapper {
+  @apply bg-gray-200 px-3 py-2 rounded overflow-hidden;
+}
+
+.input-wrapper input {
+  @apply bg-gray-200 max-w-full w-full;
+}
