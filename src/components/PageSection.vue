@@ -2,7 +2,7 @@
   <main>
     <section>
       <h1 class="text-xl font-medium text-indigo-600">{{ title }}</h1>
-      <p>{{ subtitle }}</p>
+      <p class="text-gray-500 text-sm">{{ subtitle }}</p>
     </section>
     <section class="mt-6">
       <slot name="body"></slot>
@@ -19,7 +19,7 @@ const props = defineProps({
   },
   subtitle: {
     type: String,
-    default: 'Sed eget est vitae tortor mollis ullamcorper.'
+    default: 'Sed eget est vitae tortor mollis ullamcorper Et luctus faucibus, nibh nisi commodo.'
   }
 })
 

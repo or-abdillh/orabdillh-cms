@@ -18,10 +18,26 @@ body {
   @apply w-full md:w-10/12 lg:w-8/12 xl:w-6/12 md:mx-auto
 }
 
-.input-wrapper {
-  @apply bg-gray-200 px-3 py-2 rounded overflow-hidden;
+.input-field {
+  @apply mb-8;
 }
 
-.input-wrapper input {
-  @apply bg-gray-200 max-w-full w-full;
+.input-wrapper {
+  @apply bg-gray-200 rounded overflow-hidden;
+}
+
+.input-wrapper input, .input-wrapper textarea {
+  @apply bg-gray-200 w-full px-6 py-3;
+}
+
+.btn-submit , .btn-reset {
+  @apply w-full px-4 py-2 rounded-lg active:scale-95 duration-300;
+}
+
+.btn-submit {
+  @apply bg-indigo-600 text-gray-100;
+}
+
+.btn-reset {
+  @apply ring-2 ring-red-600 text-red-600;
 }
