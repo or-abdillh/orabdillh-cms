@@ -45,7 +45,7 @@ const manageContents = [
     name: 'Contacts & Social Media',
     icon: 'fa fa-solid fa-address-book',
     description: 'In ligula dapibus egestas. Donec sed.',
-    path: ''
+    path: '/manage/contacts'
   },
   {
     id: 3,

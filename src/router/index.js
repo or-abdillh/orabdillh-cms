@@ -10,6 +10,11 @@ const routes = [
     name: 'Landing & Navbar',
     path: '/manage/landing-navbar',
     component: () => import('@/views/ManageLandingNavbar.vue')
+  },
+  {
+    name: 'Contacts & Social Media',
+    path: '/manage/contacts',
+    component: () => import('@/views/ManageContacts.vue')
   }
 ]
 
