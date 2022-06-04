@@ -15,6 +15,11 @@ const routes = [
     name: 'Contacts & Social Media',
     path: '/manage/contacts',
     component: () => import('@/views/ManageContacts.vue')
+  },
+  {
+    name: 'Educations & Skills',
+    path: '/manage/education-skill',
+    component: () => import('@/views/ManageEducationSkill.vue')
   }
 ]
 

@@ -52,7 +52,7 @@ const manageContents = [
     name: 'Skills & Educations',
     icon: 'fa fa-solid fa-graduation-cap',
     description: 'In ligula dapibus egestas. Donec sed.',
-    path: ''
+    path: '/manage/education-skill'
   },
   {
     id: 4,
