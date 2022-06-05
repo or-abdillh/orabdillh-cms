@@ -30,7 +30,7 @@
         <!-- Educations Lists -->
         <section class="mt-8">
           <template v-for="item in educations" :key="item.id">
-            <list-item>
+            <list-item :thumbnail="false">
               <template v-slot:start>
                 <h1>{{ item.title }}</h1>
                 <p>{{ item.from }} - {{ item.until }}</p>

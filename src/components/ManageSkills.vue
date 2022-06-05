@@ -17,7 +17,7 @@
         <!-- Skills -->
         <section class="mt-8">
           <template v-for="skill in skills" :key="skill.id">
-            <list-item>
+            <list-item :thumbnail="false">
               <template v-slot:start>
                 <h1>{{ skill.title }}</h1>
               </template>
