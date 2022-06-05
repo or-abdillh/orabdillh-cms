@@ -1,7 +1,7 @@
 <template>
    <main class="pt-20">
       <!-- Unread Mail -->
-      <unread-mail-box></unread-mail-box>
+      <unread-mail-box v-on:click-mail="toReadMail"></unread-mail-box>
       <!-- Old mail -->
       <page-section class="mt-12" title="Mail Box">
          <template v-slot:body>

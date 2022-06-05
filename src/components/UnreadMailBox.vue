@@ -3,7 +3,7 @@
    <page-section title="Unread Mail">
       <template v-slot:body>
          <template v-for="mail in mails" :key="mail.id">
-            <list-item :thumbnail="false" class="border-indigo-400">
+            <list-item @click="emnits('click-mail', mail.id)" :thumbnail="false" class="border-indigo-400">
                <template v-slot:start>
                   <strong>From : {{ mail.fullname }}</strong>
                   <p>at {{ mail.timestamp }}</p>
@@ -20,6 +20,8 @@
 
 import PageSection from '@component/PageSection.vue'
 import ListItem from '@component/ListItem.vue'
+
+const emnits = defineEmits('click-mail')
 
 const mails = [
    {
