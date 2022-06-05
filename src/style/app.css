@@ -23,7 +23,7 @@ body {
 }
 
 .input-wrapper {
-  @apply bg-gray-200 rounded overflow-hidden;
+  @apply bg-gray-200 rounded overflow-hidden flex items-center;
 }
 
 .input-wrapper input, .input-wrapper textarea {

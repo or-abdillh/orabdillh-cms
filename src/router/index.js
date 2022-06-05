@@ -7,6 +7,11 @@ const routes = [
     component: () => import('@/views/Home.vue')
   },
   {
+    name: 'login',
+    path: '/login',
+    component: () => import('@/views/Login.vue')
+  },
+  {
     name: 'Landing & Navbar',
     path: '/manage/landing-navbar',
     component: () => import('@/views/ManageLandingNavbar.vue')

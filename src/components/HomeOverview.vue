@@ -19,7 +19,7 @@
         </section>
         <section class="my-5">
           <button class="bg-indigo-100 text-indigo-600 rounded-lg px-3 py-2 mr-3">Live preview</button>
-          <button class="bg-gray-300 px-3 py-2 rounded-lg">View Code</button>
+          <button class="bg-red-100 text-red-600 px-3 py-2 rounded-lg">Log Out</button>
         </section>
       </template>
     </page-section>

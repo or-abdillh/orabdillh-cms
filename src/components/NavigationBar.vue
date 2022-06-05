@@ -1,5 +1,5 @@
 <template>
-  <main v-if="pageTitle !== 'home'" class="fixed top-0 right-0 left-0 bg-gray-100">
+  <main v-if="pageTitle" class="fixed top-0 right-0 left-0 bg-gray-100">
     <section class="container flex gap-6 items-center px-6 py-4">
       <!-- Back button-->
       <div @click="buttonBack" class="border border-indigo-100 px-2 rounded-lg active:bg-gray-50 active:border-indigo-200 active:scale-95 duration-300">
@@ -21,8 +21,7 @@ import { computed } from 'vue'
 const router = useRouter()
 const route = useRoute()
 
-const pageTitle = computed(() => route.name)
-
+const pageTitle = computed(() => route.name === 'home' || route.name === 'login' ? false : true)
 
 const buttonBack = () => {
   setTimeout(() => {
