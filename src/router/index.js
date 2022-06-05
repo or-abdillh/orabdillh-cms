@@ -20,6 +20,11 @@ const routes = [
     name: 'Educations & Skills',
     path: '/manage/education-skill',
     component: () => import('@/views/ManageEducationSkill.vue')
+  },
+  {
+    name: 'Tools & Projects',
+    path: '/manage/tool-project',
+    component: () => import('@/views/ManageToolProject.vue')
   }
 ]
 

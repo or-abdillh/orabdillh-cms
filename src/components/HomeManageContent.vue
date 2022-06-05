@@ -59,7 +59,7 @@ const manageContents = [
     name: 'Tools & Projects',
     icon: 'fa fa-solid fa-screwdriver-wrench',
     description: 'In ligula dapibus egestas. Donec sed.',
-    path: ''
+    path: '/manage/tool-project'
   }
 
 ]
