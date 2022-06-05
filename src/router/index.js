@@ -25,6 +25,11 @@ const routes = [
     name: 'Tools & Projects',
     path: '/manage/tool-project',
     component: () => import('@/views/ManageToolProject.vue')
+  },
+  {
+    name: 'Mail Box',
+    path: '/mail-box',
+    component: () => import('@/views/MailBox.vue')
   }
 ]
 

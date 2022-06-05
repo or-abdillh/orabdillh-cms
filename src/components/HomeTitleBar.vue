@@ -6,10 +6,20 @@
         <h1 class="font-semibold text-indigo-600">OR ABDILLH</h1>
       </section> 
       <section>
-        <i class="fa fa-solid fa-envelope-open text-indigo-600 text-2xl relative">
+        <i @click="toMailBox" class="fa fa-solid fa-envelope-open text-indigo-600 text-2xl relative active:scale-95 duration-300">
           <span class="text-indigo-600 bg-gray-100 px-1 rounded-full font-semibold text-sm absolute -top-1 -right-1">2</span>
         </i>
       </section>
     </section>
   </main>
 </template>
+
+<script setup>
+
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const toMailBox = () => {
+  setTimeout( router.push({ name: 'Mail Box' }), 350 )
+}
+</script>
