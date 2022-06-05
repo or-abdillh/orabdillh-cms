@@ -25,18 +25,7 @@
             </div>
           </section>
           <!-- Actions -->
-          <section class="mt-10 w-full flex gap-3">
-            <!-- Submit -->
-            <button class="btn-submit" type="submit">
-              <i class="fa fa-solid fa-paper-plane"></i>
-                Submit
-            </button>
-            <!-- Reset -->
-            <button class="btn-reset" type="reset">
-              <i class="fa fa-solid fa-repeat"></i>
-                Reset
-            </button>
-          </section>
+          <submit-reset-button></submit-reset-button>
         </form>
         <!-- Educations Lists -->
         <section class="mt-8">
@@ -47,10 +36,7 @@
                 <p>{{ item.from }} - {{ item.until }}</p>
               </template>
               <template v-slot:end>
-                <div>
-                  <button><i class="fa fa-solid fa-trash text-red-600 mr-3"></i></button>
-                  <button><i class="fa fa-solid fa-edit text-blue-600"></i></button>
-                </div>
+                <edit-delete-button></edit-delete-button>
               </template>
             </list-item>
           </template>
@@ -64,6 +50,8 @@
 
 import PageSection from '@component/PageSection.vue'
 import ListItem from '@component/ListItem.vue'
+import EditDeleteButton from '@component/EditDeleteButton.vue'
+import SubmitResetButton from '@component/SubmitResetButton.vue'
 
 const educations = [
    {

@@ -25,18 +25,7 @@
                   </div>
                </section>
                <!-- Actions -->
-               <section class="mt-10 w-full flex gap-3">
-                  <!-- Submit -->
-                  <button class="btn-submit" type="submit">
-                     <i class="fa fa-solid fa-paper-plane"></i>
-                     Submit
-                  </button>
-                  <!-- Reset -->
-                  <button class="btn-reset" type="reset">
-                     <i class="fa fa-solid fa-repeat"></i>
-                     Reset
-                  </button>
-               </section>
+               <submit-reset-button></submit-reset-button>
             </form>
          </template>
       </page-section>
@@ -49,6 +38,7 @@
 
 import PageSection from '@component/PageSection.vue'
 import ProcessState from '@component/ProcessState.vue'
+import SubmitResetButton from '@component/SubmitResetButton.vue'
 
 const retry = () => console.log('retry')
 
