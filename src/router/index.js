@@ -30,6 +30,11 @@ const routes = [
     name: 'Mail Box',
     path: '/mail-box',
     component: () => import('@/views/MailBox.vue')
+  },
+  {
+    name: 'Read Mail',
+    path: '/read-mail/:id',
+    component: () => import('@/views/ReadMail.vue')
   }
 ]
 

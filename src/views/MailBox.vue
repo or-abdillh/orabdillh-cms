@@ -6,7 +6,7 @@
       <page-section class="mt-12" title="Mail Box">
          <template v-slot:body>
             <template v-for="mail in mails" :key="mail.id">
-               <list-item :thumbnail="false">
+               <list-item @click="toReadMail(mail.id)" :thumbnail="false">
                   <template v-slot:start>
                      <strong>From : {{ mail.fullname }}</strong>
                      <p>at {{ mail.timestamp }}</p>
@@ -24,6 +24,15 @@
 import PageSection from '@component/PageSection.vue'
 import ListItem from '@component/ListItem.vue'
 import UnreadMailBox from '@component/UnreadMailBox.vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const toReadMail = id => {
+   setTimeout(() => {
+      router.push({ name: 'Read Mail', params: { id } })
+   }, 350)
+}
 
 const mails = [
    {
