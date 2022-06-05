@@ -25,7 +25,7 @@
         <section class="mt-8">
           <template v-for="tool in tools" :key="tool.id">
             <list-item>
-              <template v-slot:start><img :src="tool.asset" :alt="tool.title" class="w-2/12"></template>
+              <template v-slot:start><img :src="tool.asset" :alt="tool.title" class="w-full"></template>
               <template v-slot:end>
                 <edit-delete-button></edit-delete-button>
               </template>

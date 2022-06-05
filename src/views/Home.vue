@@ -4,7 +4,7 @@
      <!-- Dashboard -->
      <home-dashboard></home-dashboard>
      <!-- Manage Content -->
-     <home-manage-content></home-manage-content>
+     <home-manage-contents></home-manage-contents>
      <!-- Overview -->
       <home-overview></home-overview>
   </main>
@@ -14,7 +14,7 @@
 
 import HomeTitleBar from '@component/HomeTitleBar.vue'
 import HomeDashboard from '@component/HomeDashboard.vue'
-import HomeManageContent from '@component/HomeManageContent.vue'
+import HomeManageContents from '@component/HomeManageContents.vue'
 import HomeOverview from '@component/HomeOverview.vue'
 
 </script>
